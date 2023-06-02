@@ -165,7 +165,7 @@ const Skills = () => {
                   <div className="relative h-2 w-full bg-gray-300 rounded-xl">
                     <div className="absolute bg-green-500 h-2 rounded-xl w-[50%]"></div>
                   </div>
-                  <p className="font-bold text-blue-500 text-right mt-1">50%</p>
+                  <p className="font-bold text-blue-500 text-right mt-1">60%</p>
                 </div>
               </div>
             </div>
