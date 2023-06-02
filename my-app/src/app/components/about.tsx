@@ -17,9 +17,9 @@ const About = () => {
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-blue-500 underline underline-offset-8">
+            <div className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-blue-500 underline underline-offset-8">
               About Me
-            </h1>
+            </div>
             <p className="mb-5 leading-relaxed">
               Bachelor of Commerce in Marketing & Finance, University of the
               Punjab.

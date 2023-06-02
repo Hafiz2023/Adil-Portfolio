@@ -1,4 +1,3 @@
-
 import React from "react";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 
@@ -11,9 +10,9 @@ const Skills = () => {
             {/* <h2 className="text-xs text-blue-500 tracking-widest font-medium title-font mb-1">
               Skills
             </h2> */}
-            <h1 className="sm:text-3xl text-2xl font-extrabold title-font text-blue-500 underline underline-offset-8">
+            <div className="sm:text-3xl text-2xl font-extrabold title-font text-blue-500 underline underline-offset-8">
               My Skills
-            </h1>
+            </div>
           </div>
           <div className="flex flex-wrap -m-4 -mt-[5rem]">
             {/* {skill HTML} */}
@@ -23,9 +22,9 @@ const Skills = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <BsFillCheckCircleFill />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <div className="text-gray-900 text-lg title-font font-medium">
                     HTML
-                  </h2>
+                  </div>
                 </div>
                 <div className="flex-grow">
                   <div className="relative h-2 w-full bg-gray-300 rounded-xl">
@@ -44,9 +43,9 @@ const Skills = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <BsFillCheckCircleFill />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <div className="text-gray-900 text-lg title-font font-medium">
                     CSS
-                  </h2>
+                  </div>
                 </div>
                 <div className="flex-grow">
                   <div className="relative h-2 w-full bg-gray-300 rounded-xl">
@@ -63,9 +62,9 @@ const Skills = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <BsFillCheckCircleFill />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <div className="text-gray-900 text-lg title-font font-medium">
                     Javascript
-                  </h2>
+                  </div>
                 </div>
                 <div className="flex-grow">
                   <div className="relative h-2 w-full bg-gray-300 rounded-xl">
@@ -82,9 +81,9 @@ const Skills = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <BsFillCheckCircleFill />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <div className="text-gray-900 text-lg title-font font-medium">
                     Typescript
-                  </h2>
+                  </div>
                 </div>
                 <div className="flex-grow">
                   <div className="relative h-2 w-full bg-gray-300 rounded-xl">
@@ -101,9 +100,9 @@ const Skills = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <BsFillCheckCircleFill />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <div className="text-gray-900 text-lg title-font font-medium">
                     Node JS
-                  </h2>
+                  </div>
                 </div>
                 <div className="flex-grow">
                   <div className="relative h-2 w-full bg-gray-300 rounded-xl">
@@ -120,9 +119,9 @@ const Skills = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <BsFillCheckCircleFill />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <div className="text-gray-900 text-lg title-font font-medium">
                     tailwindcss
-                  </h2>
+                  </div>
                 </div>
                 <div className="flex-grow">
                   <div className="relative h-2 w-full bg-gray-300 rounded-xl">
@@ -139,9 +138,9 @@ const Skills = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <BsFillCheckCircleFill />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <div className="text-gray-900 text-lg title-font font-medium">
                     Next JS
-                  </h2>
+                  </div>
                 </div>
                 <div className="flex-grow">
                   <div className="relative h-2 w-full bg-gray-300 rounded-xl">
@@ -158,9 +157,9 @@ const Skills = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <BsFillCheckCircleFill />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <div className="text-gray-900 text-lg title-font font-medium">
                     React
-                  </h2>
+                  </div>
                 </div>
                 <div className="flex-grow">
                   <div className="relative h-2 w-full bg-gray-300 rounded-xl">

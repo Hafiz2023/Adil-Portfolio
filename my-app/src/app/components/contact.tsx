@@ -16,24 +16,24 @@ const Contact = () => {
             />
             <div className="bg-white relative flex flex-wrap py-6 rounded">
               <div className="lg:w-1/2 px-6">
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                <div className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   ADDRESS
-                </h2>
+                </div>
                 <p className="mt-1">
                   Azmat Chowk Green Town,
                   Lahore, Punjab
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                <div className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   EMAIL
-                </h2>
+                </div>
                 <a className="text-blue-500 leading-relaxed">
                   hafizadil909@gmail.com
                 </a>
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+                <div className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
-                </h2>
+                </div>
                 <p className="leading-relaxed">+92-320-4338215</p>
               </div>
             </div>

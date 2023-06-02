@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -31,9 +30,9 @@ const Project = () => {
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                     Online Store
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h3 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Shoping Hub
-                  </h1>
+                  </h3>
                   <p className="leading-relaxed line-clamp-2">
                     In this project I have created a website through which
                     people can do online shopping. And it is currently being
@@ -61,12 +60,12 @@ const Project = () => {
                   height={700}
                 />
                 <div className="px-8 py-10 relative w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                  <h4 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                     Facebook Web Application
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  </h4>
+                  <h5 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Main landing page
-                  </h1>
+                  </h5>
                   <p className="leading-relaxed line-clamp-2">
                     In this project I have created a Facebook landing page and
                     in which use Tailwind_CSS, React and HTML
@@ -93,12 +92,12 @@ const Project = () => {
                   height={700}
                 />
                 <div className="px-8 py-10 relative w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                  <h6 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                     Personal Website
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  </h6>
+                  <div className="title-font text-lg font-medium text-gray-900 mb-3">
                     Curriculum vitae
-                  </h1>
+                  </div>
                   <p className="leading-relaxed line-clamp-2">
                     In this project I have created a personal website of
                     Curriculum vitae and in which use Tailwind_CSS, React and
@@ -126,21 +125,18 @@ const Project = () => {
                   height={700}
                 />
                 <div className="px-8 py-10 relative w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                  <div className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                     CLI Project
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  </div>
+                  <div className="title-font text-lg font-medium text-gray-900 mb-3">
                     Number Guess Game
-                  </h1>
+                  </div>
                   <p className="leading-relaxed line-clamp-2">
                     In this project I have created a number guess game on
                     back-end terminal in which use node.js, typescript, figlet
                     and inquirer.
                   </p>
-                  <Link
-                    target="_blank"
-                    href={"https://github.com/Hafiz2023"}
-                  >
+                  <Link target="_blank" href={"https://github.com/Hafiz2023"}>
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project Code...
                     </p>
@@ -159,23 +155,18 @@ const Project = () => {
                   height={700}
                 />
                 <div className="px-8 py-10 relative w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                  <div className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
                     CLI Project
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  </div>
+                  <div className="title-font text-lg font-medium text-gray-900 mb-3">
                     CLI Calculator
-                  </h1>
+                  </div>
                   <p className="leading-relaxed line-clamp-2">
                     In this project I have created a Calculator on back-end
                     terminal in which use node.js, typescript, figlet and
                     inquirer.
                   </p>
-                  <Link
-                    target="_blank"
-                    href={
-                      "https://github.com/Hafiz2023"
-                    }
-                  >
+                  <Link target="_blank" href={"https://github.com/Hafiz2023"}>
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project Code...
                     </p>
