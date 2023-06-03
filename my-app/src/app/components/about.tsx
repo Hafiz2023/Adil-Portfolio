@@ -23,8 +23,7 @@ const About = () => {
             <p className="mb-5 leading-relaxed">
               Bachelor of Commerce in Marketing & Finance, University of the
               Punjab.
-
-               <br />
+              <br />
               Electrical sub Engineering (DAE) Govt collage, Lahore.
               <br />
             </p>

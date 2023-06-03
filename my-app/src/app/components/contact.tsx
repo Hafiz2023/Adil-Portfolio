@@ -19,10 +19,7 @@ const Contact = () => {
                 <div className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   ADDRESS
                 </div>
-                <p className="mt-1">
-                  Azmat Chowk Green Town,
-                  Lahore, Punjab
-                </p>
+                <p className="mt-1">Azmat Chowk Green Town, Lahore, Punjab</p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <div className="title-font font-semibold text-gray-900 tracking-widest text-xs">
@@ -45,48 +42,71 @@ const Contact = () => {
             <p className="leading-relaxed mb-5 text-gray-600">
               feel free to contact
             </p>
-            <div className="relative mb-4">
-              <label htmlFor="name" className="leading-7 text-sm text-gray-600">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div className="relative mb-4">
-              <label
-                htmlFor="email"
-                className="leading-7 text-sm text-gray-600"
-              >
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div className="relative mb-4">
-              <label
-                htmlFor="message"
-                className="leading-7 text-sm text-gray-600"
-              >
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                defaultValue={""}
-              />
-            </div>
-            <button className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
-              Send Message
-            </button>
+            <form action="https://formspree.io/f/mlekygzp" method="POST">
+              <div className="relative mb-4">
+                <label
+                  htmlFor="name"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required
+                />
+              </div>
+              <div className="relative mb-4">
+                <label
+                  htmlFor="email"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required
+                />
+              </div>
+              <div className="relative mb-4">
+                <label
+                  htmlFor="subject"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Subject
+                </label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  required
+                />
+              </div>
+              <div className="relative mb-4">
+                <label
+                  htmlFor="message"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  defaultValue={""}
+                  required
+                />
+              </div>
+              <button className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
+                Send Message
+              </button>
+            </form>
           </div>
         </div>
       </section>
