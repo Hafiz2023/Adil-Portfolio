@@ -21,8 +21,7 @@ const About = () => {
               About Me
             </div>
             <p className="mb-5 leading-relaxed">
-              Bachelor of Commerce in Marketing & Finance, University of the
-              Punjab.
+            Bachelor of Arts, Allama Iqbal Open University.
               <br />
               Electrical sub Engineering (DAE) Govt collage, Lahore.
               <br />
