@@ -11,7 +11,7 @@ const Contact = () => {
               height="100%"
               className="absolute inset-0"
               title="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6808.558016133708!2d74.3068618!3d31.433985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919012e2488f7fb%3A0x67e6caf9c4e2b5e7!2sGreen%20Town%2C%20Lahore%2C%20Punjab!5e0!3m2!1sen!2s!4v1685942190361!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6808.558016133708!2d74.3068618!3d31.433985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919012da5bffcb3%3A0x7f37aef2db29bd38!2sGGHS%20Green%20Town!5e0!3m2!1sen!2s!4v1685986686002!5m2!1sen!2s"
               style={{ filter: "contrast(1.2) opacity(0.7)" }}
             />
             <div className="bg-white relative flex flex-wrap py-6 rounded">
