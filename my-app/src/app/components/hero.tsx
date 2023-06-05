@@ -17,7 +17,7 @@ const Hero = () => {
                 <div className="text-blue-500">Full Stack Developer</div>
               </div>
               <div className="w-[100px] h-[2px] bg-blue-600"></div>
-              <p className="mb-8 leading-relaxed text-base font-semibold mt-6">
+              <p className="mb-5 leading-relaxed text-base font-semibold mt-6">
                 I m professional and skilled to build web applications from the
                 front-end to the back-end using Next.js-13, a popular
                 React-based web development framework. I strongly understand web
@@ -25,7 +25,7 @@ const Hero = () => {
                 JavaScript, Typescript, React, Node.js, APIs, Postgress,
                 Database related libraries and frameworks.`
               </p>
-              <div className="flex justify-cente">
+              <div className="flex justify-center">
                 <Link href={"#Contact"}>
                   <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
                     Contact
@@ -33,13 +33,14 @@ const Hero = () => {
                 </Link>
               </div>
             </div>
+
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
               <Image
-                className="object-cover object-center mx-auto rounded-2xl"
+                className="rounded-2xl mx-auto object-cover object-center"
                 alt="hero"
                 src="/assests/pictures/mypic.png"
-                width={400}
-                height={400}
+                width={350}
+                height={300}
               />
             </div>
           </div>
