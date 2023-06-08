@@ -34,9 +34,9 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 flex mx-auto">
               <Image
-                className="rounded-2xl mx-auto object-cover object-center"
+                className="rounded-2xl  object-cover object-center"
                 alt="hero"
                 src="/assests/pictures/mypic.png"
                 width={350}
